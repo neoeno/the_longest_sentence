@@ -1,0 +1,52 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bind-it (0.2.7)
+      rjb (~> 1.4.3)
+    birch (0.0.8)
+    byebug (3.5.1)
+      columnize (~> 0.8)
+      debugger-linecache (~> 1.2)
+      slop (~> 3.6)
+    coderay (1.1.0)
+    columnize (0.8.9)
+    debugger-linecache (1.2.0)
+    engtagger (0.2.0)
+    json (1.8.1)
+    method_source (0.8.2)
+    mime-types (1.25.1)
+    progressbar (0.21.0)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-byebug (2.0.0)
+      byebug (~> 3.4)
+      pry (~> 0.10)
+    rjb (1.4.9)
+    rubyzip (0.9.9)
+    scalpel (0.2.1)
+    schiphol (1.0.1)
+      progressbar (>= 0.10.0)
+      rubyzip (~> 0.9.9)
+    slop (3.6.0)
+    stanford-core-nlp (0.5.1)
+      bind-it (~> 0.2.5)
+    treat (2.1.0)
+      birch
+      schiphol
+      yomu
+    yomu (0.2.0)
+      json (~> 1.8)
+      mime-types (~> 1.23)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  engtagger
+  pry
+  pry-byebug
+  scalpel
+  stanford-core-nlp
+  treat
